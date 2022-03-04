@@ -36,3 +36,14 @@ function analyzeArray(){
   };
   return object;
 }
+function guessingGame(){
+  const myNumber = 20;
+  let pickNumber = prompt('Guess Number');
+  if(pickNumber === myNumber){
+    alert('it is tie');
+  }else if (pickNumber > myNumber){
+    alert('You are Winner 🤩');
+  }else if (pickNumber < myNumber){
+    alert('You lost 😡');
+  }
+}
